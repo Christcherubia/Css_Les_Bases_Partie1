@@ -1,0 +1,31 @@
+/********Header, h2, h3, h4 et font-family = @google_font***********/
+/********Nav et Listes à puces**********/
+/********Body, p***********/
+/********Tableau et Formulaire*********/
+/********div, id#, .class************/
+/********Footer, icons, font-awesome************/
+
+/********** font-family = @google_font ********/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200&display=swap'); /* Je suis une 'police' importer du site Google fonts */
+
+
+
+/****** Header, h2, h3, h4 *****/
+header, h2, h3, h4 {
+    margin: auto;
+    padding: 5px;
+    font-size: 1.3rem;
+    font-family: 'poppins', sans-serif;
+    background: rgb(255, 181, 154);
+    border-radius: 8px 5px 3px 5px;
+    text-decoration: underline rgb(34, 203, 255);
+    color: rgba(22, 22, 22, 0.966);
+    text-shadow: 1px 2px 3px rgb(32, 32, 32);
+}
+
+/* *******Body, p********** */
+body {
+    font-size: 1.1rem;
+    font-family: 'open sans', cursive;
+}
+
